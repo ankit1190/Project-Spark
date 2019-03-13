@@ -1,0 +1,74 @@
+body{
+    background-attachment: fixed;
+    background-size: cover;
+}
+#champ-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-items: flex-start;
+    /* margin: auto; */
+  }
+
+hr{
+    width: 10000px;
+}
+
+#champ-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+#champ-stats{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: flex-start;
+    
+}
+
+#champ-details{
+    margin: 1rem;
+    background-color: rgba(51,51,51,0.4); 
+    color: White;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .4);
+    
+    overflow: hidden;
+    transition: all .2s linear;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#champ-title{
+    justify-items: center;
+}
+
+.skills{
+    border-bottom: solid;
+}
+
+.skills:hover{
+    border-bottom: none;
+    border: none;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, 1);
+    background-color: rgba(51,51,51,0.7); 
+}
+
+#champ-tips:hover{
+    background-color: rgba(51,51,51,0.8); 
+}
+
+#champ-ally-tips:hover {
+    background-color: rgba(51,51,51,0.8); 
+}
+
+#champ-story:hover{
+    background-color: rgba(51,51,51,0.8); 
+}
+
+#champ-tag{
+    align-self: center;
+}
